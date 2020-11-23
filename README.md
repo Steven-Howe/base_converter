@@ -1,13 +1,13 @@
 # base_converter
 ### Program to convert numbers between binary, octal, decimal, and hexadecimal.
 
-Name:
+#### Name:
 base_converter.py
 
-Synopsis:
+#### Synopsis:
 python3 base_converter.py 
 
-Description:
+#### Description:
 base_converter.py will convert decimal, binary, hexadecimal, and octal numbers
 interchangeably, either on the commandline or interactively.
 
@@ -32,30 +32,31 @@ interchangeably, either on the commandline or interactively.
 `-a`
     will return all possible base conversions of a number
 
-Examples:
+#### Examples:
+
 `python3 base_converter.py -d 6443 -b`
 
--will convert the decimal number 6443 into a binary number
+- will convert the decimal number 6443 into a binary number
 
 `python3 base_converter.py -b 1001101101 -o`
 
--will convert the binary number 1001101101 into an octal number
+- will convert the binary number 1001101101 into an octal number
 
 `python3 base_converter.py -h 13f68c -a`
 
--will convert the hexadecimal number 13f68c into binary, octal, and decimal
+- will convert the hexadecimal number 13f68c into binary, octal, and decimal
 
 `python3 base_converter.py -o "645 7221 363" -d`
 
--will convert the octal numbers 645, 7221, 363 into decimal
+- will convert the octal numbers 645, 7221, 363 into decimal
 
 **Note: double quotation marks must be used if more than one number
       is to be converted at a time**
 
 `python3 base_converter.py -d "1987 1622 153" -a`
 
--will convert the decimal numbers 1987, 1622, 153 into binary, octal,
+- will convert the decimal numbers 1987, 1622, 153 into binary, octal,
 and hexadecimal 
 
-Author:
+#### Author:
 Written by Steven Howe
